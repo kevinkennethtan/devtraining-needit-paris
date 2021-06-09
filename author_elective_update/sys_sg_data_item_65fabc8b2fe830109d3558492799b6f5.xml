@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>All of my open NeedIt records</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>NeedIt Last Quarter</name>
+        <query_condition table="x_58872_needit_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORDERBYnumber<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 08:02:41</sys_created_on>
+        <sys_id>65fabc8b2fe830109d3558492799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Last Quarter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_65fabc8b2fe830109d3558492799b6f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 08:02:41</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=65fabc8b2fe830109d3558492799b6f5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3919c7d5db6f7b040ae3ac44d4961942</instance_id>
+        <instance_name>dev92631</instance_name>
+        <name>sys_sg_data_item_65fabc8b2fe830109d3558492799b6f5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>All of my open NeedIt records</description><group_by/><instance_relative_url_qc/><name>NeedIt Last Quarter</name><query_condition table="x_58872_needit_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORDERBYnumber<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/><item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-06-09 08:02:41</sys_created_on><sys_id>65fabc8b2fe830109d3558492799b6f5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Last Quarter</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_65fabc8b2fe830109d3558492799b6f5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-06-09 08:02:41</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=65fabc8b2fe830109d3558492799b6f5"/></record_update>]]></payload>
+        <payload_hash>1035912737</payload_hash>
+        <record_name>NeedIt Last Quarter</record_name>
+        <reverted_from/>
+        <source>3debf3a22f243010ff5241e72799b66f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 08:02:41</sys_created_on>
+        <sys_id>29fabc8b2fe830109d3558492799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>179efcb80bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 08:02:41</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>a1fabc8ba0e83010f0cb276f17f7d7f7</update_guid>
+        <update_guid_history>a1fabc8ba0e83010f0cb276f17f7d7f7:1035912737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-09 08:04:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>2c49d0384f254f5f92803e74c73c9969</sys_id>
+        <sys_metadata>65fabc8b2fe830109d3558492799b6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Last Quarter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_65fabc8b2fe830109d3558492799b6f5</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_65fabc8b2fe830109d3558492799b6f5">29fabc8b2fe830109d3558492799b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-09 08:04:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
